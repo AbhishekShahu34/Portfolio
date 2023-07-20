@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            background: rgb(12, 3, 81);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(59, 37, 223);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 40%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            color: aliceblue;
+
+        }
+        .leftSection .btn{
+            padding: 12px;
+            background-color: #2a2ac2;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftSection .btn:hover{
+            color: aquamarine;
+            font-size: medium;
+            transition: 0.5s;
+        }
+
+        .rightSection img {
+
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(131, 8, 246);
+        }
+
+        #element {
+            color: rgb(131, 8, 246);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            color: aliceblue;
+        }
+
+        main hr {
+            border: 0;
+            background: #5b10c4;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .btn {
+            height: auto;
+            width: auto;
+            margin: 2px;
+            color: rgb(12, 187, 62);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+
+        footer {
+            background-color: #000040;
+            color: azure;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+        .footer >div{
+            width: 240px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px;
+        }
+        .btn a{
+            text-decoration: none;
+            color: azure;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Abhi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="/">About</li></a>
+                    <li><a href="/">Services</li></a>
+                    <li><a href="/">Projects</li></a>
+                    <li><a href="/">Contact Me</li></a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,My Name is <span class="purple">Abhi</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="mycv.pdf">Download Resume</a></button>
+                    <button class="btn"><a href="Https://www.github.com/AbhishekShahu34">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="abhi.jpg" alt="No Image Found">
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <b style="color: orange; font-size: 25px;">Abhi's Developer Portfolio</b>
+                      <div style="padding: 3px; color: green;">Thank You for Visiting my Portfolio Website.</div>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li><b style="font-size: 25px; color: #3d09e8;">Quick Links</b></li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                        <li>Achievements</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li><b style="font-size: 25px; color: #18ab1a;">Follow Me</b></li>
+                        <li>Instagram</li>
+                        <li>LinkdIn</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Blogger.com</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <b style="font-size: 25px; color: #6912dc;">Location</b>
+                        <li>
+                            <span>
+                                Near Petrol Pump,Galla Bazar ke samne,
+                                Gadaganj Raebareli,229001 
+                            </span>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; www.abhiportfolio.com || All rights reserved.
+            </div>
+
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', '.Net Developer', '&amp; Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
